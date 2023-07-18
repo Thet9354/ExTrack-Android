@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:gravity="center_horizontal"
+    tools:context=".Onboarding.LogIn_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#F5F8FA"
+        android:textColorHint="@color/grey"
+        android:textSize="14sp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_email"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center_vertical"
+            android:textColorHint="@color/grey"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#F5F8FA"
+        android:textColorHint="@color/grey"
+        android:textSize="14sp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_lock"
+            android:layout_marginStart="10dp"/>
+
+        <EditText
+            android:id="@+id/editTxt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center_vertical"
+            android:textColorHint="@color/grey"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logIn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#333333"
+        android:padding="20dp"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

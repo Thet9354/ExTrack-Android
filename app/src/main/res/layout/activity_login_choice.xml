@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:gravity="center_horizontal"
+    tools:context=".Onboarding.Login_Choice_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ExTrack"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Get Started 😁"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:letterSpacing="0.1"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up or login into to have a full digital\nexperience in our app"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="#333333"
+        android:layout_marginTop="60dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="#333333"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Continue with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_btn"
+        android:text="Continue with Google"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtView_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

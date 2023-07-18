@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".Onboarding.Registration_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's Get Started 😁"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:letterSpacing="0.1"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill in the details to create an account with\nus!"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:textColor="#F5F8FA"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_person"
+                    android:layout_marginStart="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColorHint="@color/grey"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:textColor="#F5F8FA"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_email"
+                    android:layout_marginStart="10dp"/>
+
+                <EditText
+                    android:id="@+id/editText_emailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColorHint="@color/grey"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:textColor="#F5F8FA"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_lock"
+                    android:layout_marginStart="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Password"
+                    android:maxLength="6"
+                    android:inputType="numberPassword"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColorHint="@color/grey"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:textColor="#F5F8FA"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_lock"
+                    android:layout_marginStart="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_confirmPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Confirm Password"
+                    android:inputType="numberPassword"
+                    android:maxLength="6"
+                    android:layout_marginStart="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColorHint="@color/grey"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:textColor="#F5F8FA"
+                android:textColorHint="@color/grey"
+                android:textSize="14sp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_phone"
+                    android:layout_marginStart="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTxt_phoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:background="@null"
+                    android:hint="+65 Phone Number"
+                    android:inputType="number"
+                    android:textColor="#333333"
+                    android:maxLength="8"
+                    android:textColorHint="@color/grey"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_createAccount"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/round_btn"
+                android:backgroundTint="#333333"
+                android:drawableEnd="@drawable/ic_arrow_forward"
+                android:padding="20dp"
+                android:text="Create Account"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

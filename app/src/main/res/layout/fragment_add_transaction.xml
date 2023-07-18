@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".NavFragment.AddTransaction">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/learnloop_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/finance" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/heyNameTV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:text="Add a transaction"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:text="Let's get recording!"
+                android:textColor="@color/hint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/askAllowanceTV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Flow of Transaction"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_transactionFlow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+
+                <RadioButton
+                    android:id="@+id/rb_inFlow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inflow"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_outFlow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Outflow"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/askAllowanceTV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTxt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="eg. Chicken Rice"
+                android:textColorHint="@color/hint"
+                android:background="@drawable/rounded_rect_10"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_article"
+                android:drawablePadding="20dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false" />
+
+            <TextView
+                android:id="@+id/askAllowanceTV5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Amount"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTxt_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="eg. 100.90"
+                android:digits="1234567890."
+                android:textColorHint="@color/hint"
+                android:background="@drawable/rounded_rect_10"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_money"
+                android:drawablePadding="20dp"
+                android:layout_marginStart="40dp"
+                android:textColor="@color/white"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false" />
+
+            <TextView
+                android:id="@+id/askAllowanceTV6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Purpose"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_transactionPurpose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+
+                <RadioButton
+                    android:id="@+id/rb_foodAndDrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Food and Drinks"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_entertainment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Entertainment"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_transport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Transport"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shopping"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_groceries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Groceries"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_subscription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subscription"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_investment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Investment"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    android:textColor="@color/black"
+                    android:padding="3dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/askAllowanceTV7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTxt_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="eg. Size, Type, Color"
+                android:digits="1234567890."
+                android:textColorHint="@color/hint"
+                android:background="@drawable/rounded_rect_10"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_description"
+                android:drawablePadding="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false" />
+
+            <TextView
+                android:id="@+id/askAllowanceTV8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="Snap a pic!"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/btn_uploadTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect_10"
+                android:padding="10dp"
+                android:src="@drawable/image_upload"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_barCodeScanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:backgroundTint="@color/black"
+                android:padding="10dp"
+                android:text="Scan Bar Code"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_recordDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="100dp"
+                android:backgroundTint="@color/black"
+                android:padding="10dp"
+                android:text="Record it!"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:cornerRadius="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

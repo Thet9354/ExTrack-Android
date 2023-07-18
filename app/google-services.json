@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "502702114385",
+    "firebase_url": "https://extrack-6866c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "extrack-6866c",
+    "storage_bucket": "extrack-6866c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502702114385:android:9414fd53c2ca2635a75a70",
+        "android_client_info": {
+          "package_name": "com.example.extrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502702114385-7vm6grgcbi0lit5g3mfulj3gn6rp9jjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.extrack",
+            "certificate_hash": "ff8d426a498a0e686c9e5033f00df286a52d4635"
+          }
+        },
+        {
+          "client_id": "502702114385-774a010c8vdpbv5iiek16t3jl3r2a2pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARZ4bLpjz7iF_CM-YrVWwHlBwqqCkpMQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502702114385-774a010c8vdpbv5iiek16t3jl3r2a2pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

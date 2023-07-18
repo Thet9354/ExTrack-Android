@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExTrack</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="article_title">
+        <item name="1">Why Rich People Avoid Consumerism</item>
+        <item name="2">17 Financial Tips I Wish I Learned When I Was Younger</item>
+        <item name="4">7 Tips for Reducing Household Expenses</item>
+        <item name="5">You Are Not Ready to Start Investing Yet</item>
+        <item name="6">Beware of Credit Cards</item>
+        <item name="7">Become A Contrarian Investor</item>
+    </string-array>
+
+    <string-array name="article_link">
+        <item name="1">https://dariusforoux.medium.com/why-rich-people-avoid-consumerism-a5fca731d951</item>
+        <item name="2">https://medium.datadriveninvestor.com/17-financial-tips-i-wish-i-learned-when-i-was-younger-7ea201b5e65c</item>
+        <item name="4">https://medium.com/personal-finance-analytics/7-tips-for-reducing-household-expenses-fd507de9d8e3</item>
+        <item name="5">https://medium.com/personal-finance-analytics/you-are-not-ready-to-start-investing-yet-231cc64eba25</item>
+        <item name="6">https://medium.com/personal-finance-analytics/beware-of-credit-cards-fd4ddf6d62e9</item>
+        <item name="7">https://benjaminobi.medium.com/membership</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".Onboarding.Main_Onboarding_Activity">
+
+    <ImageView
+        android:id="@+id/imgView_backDoor"
+        android:layout_width="wrap_content"
+        android:layout_height="363dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/accountant" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to track and reduce your expenses"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unlock the potential with ExTrack.\nWelcome to ExTrack"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/round_btn"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="#333333"
+        android:layout_marginTop="60dp"
+        android:drawableEnd="@drawable/ic_arrow_forward"
+        android:padding="20dp"/>
+
+</LinearLayout>
